@@ -1,0 +1,67 @@
+$main-color: #833183
+$text-color: white
+$shadow-color: rgba(0, 0, 0, 0.3)
+$border-color: white
+$border-wide: 2px
+$border-radius: 12px
+
+*
+  margin: 0
+  padding: 0
+
+body
+  color: $text-color
+  font-family: Arial, Helvetica, sans-serif
+  font-weight: bold
+  background-image: url(bg.jpg)
+  background-size: cover
+
+main
+  height: 400px
+  padding: 30vh 0
+
+header
+  background-color: $main-color
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 0.6rem 2.4rem
+
+.logo
+  font-size: 1.8rem
+
+ul
+  list-style: none
+  display: flex
+
+a
+  text-decoration: none
+  color: $text-color
+  padding: 0.5rem
+
+h1
+  text-shadow: 2px -2px 1px $shadow-color
+  font-size: 3rem
+
+h2
+  text-shadow: 2px -2px 1px $shadow-color
+  font-size: 1.6rem
+
+span
+  display: block
+  padding: 0.6rem 1rem
+
+#container
+  min-height: 60%
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: space-between
+
+.btn-style
+  background-color: $main-color
+  border: 1px solid $border-color
+  border-top-width: $border-wide
+  border-right-width: $border-wide
+  border-top-left-radius: $border-radius
+  border-bottom-right-radius: $border-radius
